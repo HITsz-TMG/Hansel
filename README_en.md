@@ -19,13 +19,13 @@ This is the main page of our [WSDM 2023](https://www.wsdm-conference.org/2023/) 
 
 ## Overview
 
-Hansel is a high-quality human-annotated Chinese entity linking (EL) dataset, focusing on tail entities and emerging entities:
+Hansel is a high-quality human-annotated Chinese entity linking (EL) dataset, aimed at testing Chinese EL systems' generalization ability to tail entities and emerging entities:
 - The test set contains Few-shot (FS) and zero-shot (ZS) slices, has 10K examples and uses Wikidata as the corresponding knowledge base.
 - The training and validation sets are from Wikipedia hyperlinks, useful for large-scale pretraining of Chinese EL systems.
 
 ## Dataset
 
-The data is available [here](https://drive.google.com/drive/folders/1rpEyFWzoayUHBmxGitpWVOmf2MkZTsCt?usp=sharing).
+The data is available [here](https://drive.google.com/drive/folders/1rpEyFWzoayUHBmxGitpWVOmf2MkZTsCt?usp=sharing). You can also download and use Hansel through  [the HuggingFace's datasets library :hugs:](https://huggingface.co/datasets/HIT-TMG/Hansel).
 
 ### Data Statistics
 
@@ -66,3 +66,4 @@ If you use our dataset in your work, please cite us.
 ## License
 
 Hansel dataset is licensed under the Creative Commons Attribution-Share Alike License (CC-BY-SA).
+
