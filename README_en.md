@@ -4,11 +4,11 @@
 
 # Hansel: A Chinese Few-Shot and Zero-Shot Entity Linking Benchmark
 
-This is the main page of our paper [**Hansel**](https://arxiv.org/abs/2207.13005).
+This is the main page of our [WSDM 2023](https://www.wsdm-conference.org/2023/) paper [**Hansel**](https://arxiv.org/abs/2207.13005).
 
 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\* **Updates** \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
-- 19/09/2022: Our paper is accepted to [WSDM 2023](https://www.wsdm-conference.org/2023/)!
+- 19/12/2022: We release the training and validation data of Hansel.
 - 27/07/2022: We release the test set of Hansel, consisting of Hansel-FS and Hansel-ZS. More training data, knowledge base and baselines are to come!
 
 ## Contents
@@ -19,15 +19,25 @@ This is the main page of our paper [**Hansel**](https://arxiv.org/abs/2207.13005
 
 ## Overview
 
-Hansel is a high-quality human-annotated Chinese entity linking dataset, focusing on tail entities and emerging entities. 
-The test set has 10K examples and uses Wikidata as the corresponding knowledge base.
+Hansel is a high-quality human-annotated Chinese entity linking (EL) dataset, focusing on tail entities and emerging entities:
+- The test set contains Few-shot (FS) and zero-shot (ZS) slices, has 10K examples and uses Wikidata as the corresponding knowledge base.
+- The training and validation sets are from Wikipedia hyperlinks, useful for large-scale pretraining of Chinese EL systems.
 
 ## Dataset
 
-The data is available [here](https://drive.google.com/file/d/1n8nID5WWnZdDK9307-Imj43GuHJkRfpA/view).
+The data is available [here](https://drive.google.com/drive/folders/1rpEyFWzoayUHBmxGitpWVOmf2MkZTsCt?usp=sharing).
+
+### Data Statistics
+
+|     | # Mentions |  # Entities | Domain |
+| ----  | ---- | ---- | ---- |
+|  Train   | 9,879,813 | 541,058 | Wikipedia |
+|  Validation   | 9,674 | 6,320  | Wikipedia |
+|  Hansel-FS   | 5,260 | 2,720 | News, Social Media |
+|  Hansel-ZS  | 4,715  | 4,046 | News, Social Media, E-books, etc.|
+
 
 ### Data Format
-
 
     {"id": "hansel-eval-zs-1463", 
      "text": "1905电影网讯 已经筹备了十余年的吉尔莫·德尔·托罗的《匹诺曹》，在上个月顺利被网飞公司买下，成为了流媒体巨头旗下的新片。近日，这部备受关注的影片确定了自己的档期：2021年。虽然具体时间未定，但影片却已经实实在在地向前迈出了一步。", 
