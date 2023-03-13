@@ -1,9 +1,10 @@
 # Hansel: A Chinese Few-Shot and Zero-Shot Entity Linking Benchmark
 
-This is the main page of our [WSDM 2023](https://www.wsdm-conference.org/2023/) paper [**Hansel**](https://arxiv.org/abs/2207.13005).
+This is the main page of our [WSDM 2023](https://www.wsdm-conference.org/2023/) paper [**Hansel**](https://dl.acm.org/doi/abs/10.1145/3539597.3570418).
 
 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\* **Updates** \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
+- 13/03/2023: We release the knowledge base we use in our experiments.
 - 19/12/2022: We release the training and validation data of Hansel.
 - 27/07/2022: We release the test set of Hansel, consisting of Hansel-FS and Hansel-ZS. More training data, knowledge base and baselines are to come!
 
@@ -22,6 +23,8 @@ Hansel is a high-quality human-annotated Chinese entity linking (EL) dataset, ai
 ## Dataset
 
 The data is available [here](https://drive.google.com/drive/folders/1rpEyFWzoayUHBmxGitpWVOmf2MkZTsCt?usp=sharing). You can also download and use Hansel through  [the HuggingFace's datasets library :hugs:](https://huggingface.co/datasets/HIT-TMG/Hansel).
+
+The knowledge base (i.e., Wikidata) we use in our experiments is available [here](https://drive.google.com/drive/folders/19u5L1eaG7fzRF1ujBsaof6wZjZdnFJSm?usp=sharing).
 
 ### Data Statistics
 
@@ -50,12 +53,14 @@ The data is available [here](https://drive.google.com/drive/folders/1rpEyFWzoayU
 If you use our dataset in your work, please cite us.
 
 ```bibtex
-@misc{xu2022hansel,
-  title = {Hansel: A Chinese Few-Shot and Zero-Shot Entity Linking Benchmark},
+@inproceedings{xu2022hansel,
   author = {Xu, Zhenran and Shan, Zifei and Li, Yuxin and Hu, Baotian and Qin, Bing},
-  publisher = {arXiv},
-  year = {2022},
-  url = {https://arxiv.org/abs/2207.13005}
+  title = {Hansel: A Chinese Few-Shot and Zero-Shot Entity Linking Benchmark},
+  year = {2023},
+  publisher = {Association for Computing Machinery},
+  url = {https://doi.org/10.1145/3539597.3570418},
+  booktitle = {Proceedings of the Sixteenth ACM International Conference on Web Search and Data Mining},
+  pages = {832–840}
 }
 ```
 
