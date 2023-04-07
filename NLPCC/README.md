@@ -25,7 +25,7 @@ Please fill out the Shared Task 6 Registration Form ([Word File](http://tcci.ccf
 
 ### Data Splits
 
-- The training data for NLPCC 2023 is available [here](https://drive.google.com/drive/folders/1XdRLHDreTUGX4_BU9fFRiG_6dOBreJMl?usp=sharing), and also available in [the HuggingFace's datasets library :hugs:](https://huggingface.co/datasets/HIT-TMG/Hansel). The training data is derived from Wikipedia hyperlinks, and we 
+- The training data for NLPCC 2023 is available [here](https://drive.google.com/drive/folders/1XdRLHDreTUGX4_BU9fFRiG_6dOBreJMl?usp=sharing), and also available in [the HuggingFace's datasets library :hugs:](https://huggingface.co/datasets/HIT-TMG/Hansel). The training data is derived from Wikipedia hyperlinks, and we hold out 1K full documents (9.7K mentions) as the validation set.
 
 **More resources**:
 We also release the knowledge base (i.e., Wikidata) we use in our paper [here](https://drive.google.com/drive/folders/19u5L1eaG7fzRF1ujBsaof6wZjZdnFJSm?usp=sharing).
