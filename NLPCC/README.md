@@ -17,7 +17,7 @@ If there are any differences between the paper and this page, the content of thi
 - **May 5, 2023**: Registration deadline. The registration information is recorded at [link](https://github.com/HITsz-TMG/Hansel/blob/main/NLPCC/Leaderboard.md), please check if your information is recorded correctly and contact us if any problems occur.
 - **May 21, 2023**: Test data is available at [link](https://github.com/HITsz-TMG/Hansel/blob/main/NLPCC/hansel-nlpcc-eval.jsonl).
 - **May 31, 2023**: Results submission deadline.
-- **June 10, 2023**：Final evaluation results release and call for conference paper.
+- **June 10, 2023**：After code reviewing, final evaluation results release and call for conference paper.
 
 ## How to participate
 Please fill out the Shared Task 6 Registration Form ([Word File](http://tcci.ccf.org.cn/conference/2023/dldoc/NLPCC2023.SharedTask6.RegistrationForm.doc)) and send it to the following registration email: [xuzhenran@stu.hit.edu.cn](mailto:xuzhenran@stu.hit.edu.cn).
@@ -87,7 +87,7 @@ Evaluation metric: **Accuracy** on the test set.
 - May 29, 23:59
 - **Final submission**: May 31, 23:59
 
-**Time**: Please submit your result to the Google Form [here](https://forms.gle/QPnW81doq6HJzK9N7).
+**How to submit**: Please submit your result to the Google Form [here](https://forms.gle/QPnW81doq6HJzK9N7).
 
 
 ## Contact
