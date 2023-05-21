@@ -14,7 +14,7 @@ If there are any differences between the paper and this page, the content of thi
 
 ## Important Dates
 - **April 6, 2023**: Training data is available at [link](https://drive.google.com/drive/folders/1XdRLHDreTUGX4_BU9fFRiG_6dOBreJMl?usp=sharing).
-- **May 5, 2023**: Registration deadline. The registration information is recorded at link, please check if your information is recorded correctly and contact us if any problems occur.
+- **May 5, 2023**: Registration deadline. The registration information is recorded at [link](https://github.com/HITsz-TMG/Hansel/blob/main/NLPCC/Leaderboard.md), please check if your information is recorded correctly and contact us if any problems occur.
 - **May 21, 2023**: Test data is available at [link](https://github.com/HITsz-TMG/Hansel/blob/main/NLPCC/hansel-nlpcc-eval.jsonl).
 - **May 31, 2023**: Results submission deadline.
 
@@ -79,7 +79,7 @@ Your task is to fill in the `gold_id` field with the corresponding Wikidata QID 
 Evaluation metric: **Accuracy** on the test set.
 
 ### Submission
-**Time**: We will only evaluate the **latest** submission by following timeslots and update the leaderboard coordinately.
+**Time**: We will only evaluate the **latest** submission by following timeslots and update the [leaderboard](https://github.com/HITsz-TMG/Hansel/blob/main/NLPCC/Leaderboard.md) coordinately.
 - May 23, 23:59
 - May 25, 23:59
 - May 27, 23:59
