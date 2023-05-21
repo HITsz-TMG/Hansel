@@ -25,8 +25,8 @@ Please fill out the Shared Task 6 Registration Form ([Word File](http://tcci.ccf
 
 ### Data Splits
 
-- The training data for NLPCC 2023 is available [here](https://drive.google.com/drive/folders/1XdRLHDreTUGX4_BU9fFRiG_6dOBreJMl?usp=sharing), and also available in [the HuggingFace's datasets library :hugs:](https://huggingface.co/datasets/HIT-TMG/Hansel). The training data is derived from Wikipedia hyperlinks, and we hold out 1K full documents (9.7K mentions) as the validation set.
-- The test data for NLPCC 2023 is available [here](https://github.com/HITsz-TMG/Hansel/blob/main/NLPCC/hansel-nlpcc-eval.jsonl), consisting of a few-shot slice, a zero-shot slice and some adversarial examples for both slices.
+- The training data is available [here](https://drive.google.com/drive/folders/1XdRLHDreTUGX4_BU9fFRiG_6dOBreJMl?usp=sharing), and also available in [the HuggingFace's datasets library :hugs:](https://huggingface.co/datasets/HIT-TMG/Hansel). The training data is derived from Wikipedia hyperlinks, and we hold out 1K full documents (9.7K mentions) as the validation set.
+- The test data is available [here](https://github.com/HITsz-TMG/Hansel/blob/main/NLPCC/hansel-nlpcc-eval.jsonl), consisting of a few-shot slice, a zero-shot slice and some adversarial examples for both slices.
 
 **More resources**:
 We also release the knowledge base (i.e., Wikidata) and the alias table we use in our paper [here](https://drive.google.com/drive/folders/19u5L1eaG7fzRF1ujBsaof6wZjZdnFJSm?usp=sharing).
@@ -63,7 +63,7 @@ Every example in the evaluation data is in the following format.
      "domain": "news"
     }
 
-Your task is to fill in the `gold_id` field with the corresponding Wikidata QID as demonstrated below. Note that all examples are linkable, and all of the corresponding entities are among the 110,6489 entities in [our KB]((https://drive.google.com/drive/folders/19u5L1eaG7fzRF1ujBsaof6wZjZdnFJSm?usp=sharing)).
+Your task is to fill in the `gold_id` field with the corresponding Wikidata QID as demonstrated below. Note that all examples are linkable, and all of the corresponding entities are among the 110,6489 entities in [our KB](https://drive.google.com/drive/folders/19u5L1eaG7fzRF1ujBsaof6wZjZdnFJSm?usp=sharing).
 
     {"id": "hansel-nlpcc-8000", 
      "text": "1905电影网讯 已经筹备了十余年的吉尔莫·德尔·托罗的《匹诺曹》，在上个月顺利被网飞公司买下，成为了流媒体巨头旗下的新片。近日，这部备受关注的影片确定了自己的档期：2021年。虽然具体时间未定，但影片却已经实实在在地向前迈出了一步。", 
@@ -86,7 +86,7 @@ Evaluation metric: **Accuracy** on the test set.
 - May 29, 23:59
 - **Final submission**: May 31, 23:59
 
-**Time**: Please submit your result to [link](https://forms.gle/QPnW81doq6HJzK9N7).
+**Time**: Please submit your result to the Google Form [here](https://forms.gle/QPnW81doq6HJzK9N7).
 
 
 ## Contact
