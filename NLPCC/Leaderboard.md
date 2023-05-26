@@ -30,4 +30,10 @@
 ## Evaluation Results on \# May 23
 | Rank | Team ID  | Organization | Team Name | Test Time | Score |
 |------|----------|--------------|-----------|-----------|-------|
-| 001 |   null     | null          | null     | null | null
+| 1 |  12     |  Yunnan University     | YNU-HPCC     | Wed May 24 21:11:33 | 0.5018 |
+
+## Evaluation Results on \# May 25
+| Rank | Team ID  | Organization | Team Name | Test Time | Score |
+|------|----------|--------------|-----------|-----------|-------|
+| 1 |  12     |  Yunnan University     | YNU-HPCC     | Fri May 26 10:16:03 | 0.4859 |
+| 2 |  10     |  哈尔滨工业大学（深圳）      | Oops!       |  Fri May 26 10:16:03  | 0.4648 |
