@@ -4,7 +4,7 @@
 
 | Rank | Team ID | Organization                                    | Team Name      | Test Time | Score |
 |---|---------|---------------------|----------------|-----|------|
-| 1 | 10      | 哈尔滨工业大学（深圳）                  | Oops!    | Sun May 28 15:36:18 | 0.5239 |
+| 1 | 10      | 哈尔滨工业大学（深圳）                  | Oops!    | Tue May 30 10:32:30 | 0.6900 |
 | 2 |  12     |  Yunnan University     | YNU-HPCC     | Wed May 24 21:11:33 | 0.5018 | 
 | - | 01      | CAS Key Lab of Network Data Science and Technology, ICT, CAS             | Hastur         | - | - |
 | - | 02      | BJTU-cola                       | Fishing        |  - | - |
@@ -42,3 +42,9 @@
 | Rank | Team ID  | Organization | Team Name | Test Time | Score |
 |------|----------|--------------|-----------|-----------|-------|
 | 1 |  10     |  哈尔滨工业大学（深圳）   | Oops!      | Sun May 28 15:36:18 | 0.5239 |
+
+## Evaluation Results  on \#May 29
+| Rank | Team ID  | Organization | Team Name | Test Time | Score |
+|------|----------|--------------|-----------|-----------|-------|
+| 1 |  10     |  哈尔滨工业大学（深圳）   | Oops!      | Tue May 30 10:32:30 | 0.6900 |
+| 2 |  12     |  Yunnan University     | YNU-HPCC     | Tue May 30 10:35:24 | 0.4969 |
