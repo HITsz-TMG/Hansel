@@ -4,8 +4,9 @@
 
 | Rank | Team ID | Organization                                    | Team Name      | Test Time | Score |
 |---|---------|---------------------|----------------|-----|------|
-| 1 | 10      | 哈尔滨工业大学（深圳）                  | Oops!    | Tue May 30 10:32:30 | 0.6900 |
-| 2 |  12     |  Yunnan University     | YNU-HPCC     | Wed May 24 21:11:33 | 0.5018 | 
+| 1 |  10     |  哈尔滨工业大学（深圳）   | Oops!      | Thu June 1 16:43:40 | 0.6915 |
+| 2 |  20 | ITNLP, Faculty of Computing, Harbin Institute of Technology | ITNLP |  Thu June 1 16:43:40 | 0.6009 |
+| 3 |  12     |  Yunnan University     | YNU-HPCC     | Thu June 1 16:43:40 | 0.5319 |
 | - | 01      | CAS Key Lab of Network Data Science and Technology, ICT, CAS             | Hastur         | - | - |
 | - | 02      | BJTU-cola                       | Fishing        |  - | - |
 | - | 03      | Zhengzhou University            | zzunlp         |  - | - |
@@ -23,7 +24,6 @@
 | - | 17 | NLP, School of Computer Science and Technology, Soochow University.<br>NLP, School of Data Science, The Chinese University of Hong Kong, Shenzhen | CUHK_SU |  - | - |
 | - | 18 | Fudan University | cisl-nlp |  - | - |
 | - | 19 | Ant Group | Lastonestands |  - | - |
-| - | 20 | ITNLP, Faculty of Computing, Harbin Institute of Technology | ITNLP |  - | - |
 | - | 21 | School of Information Science and Engineering, Shandong Normal University | HPC-NLP |  - | - |
 | - | 22 | Inner Mongolia University | School of Computer Science, Inner Mongolia University |  - | - |
 
@@ -48,3 +48,10 @@
 |------|----------|--------------|-----------|-----------|-------|
 | 1 |  10     |  哈尔滨工业大学（深圳）   | Oops!      | Tue May 30 10:32:30 | 0.6900 |
 | 2 |  12     |  Yunnan University     | YNU-HPCC     | Tue May 30 10:35:24 | 0.4969 |
+
+## Evaluation Results  on \#May 31
+| Rank | Team ID  | Organization | Team Name | Test Time | Score |
+|------|----------|--------------|-----------|-----------|-------|
+| 1 |  10     |  哈尔滨工业大学（深圳）   | Oops!      | Thu June 1 16:43:40 | 0.6915 |
+| 2 |  20 | ITNLP, Faculty of Computing, Harbin Institute of Technology | ITNLP |  Thu June 1 16:43:40 | 0.6009 |
+| 3 |  12     |  Yunnan University     | YNU-HPCC     | Thu June 1 16:43:40 | 0.5319 |
